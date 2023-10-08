@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.pippo {
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
+}
+
+.header__buttons img {
+  width: 20px;
+  margin: 13px;
+}
+
+.header_menu a {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 7px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.borse{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.borse img{
+width: 25%;
+
+height: 600px;
+ object-fit: cover;
+ 
+}
+
+.buttons_photo a{
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: black;
+font-weight: 800;
+font-size: 25px;
+}
